@@ -12,8 +12,8 @@ Once it ends, you can run it again to add more users, remove some of them or eve
 
 This version of the installer hopes to deploy the [most secure version possible](https://community.openvpn.net/openvpn/wiki/Hardening).
 
-[x] [Pre-defined DHE groups 2048-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe2048)  
-[ ] [Pre-defined DHE groups 4096-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe4096)  
+[ ] [Pre-defined DHE groups 2048-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe2048)  
+[x] [Pre-defined DHE groups 4096-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe4096)  
 [ ] tls-version-min=1.2  
 [ ] tls-cipher  
 [ ] tls-auth  
