@@ -10,9 +10,11 @@ Run the script and follow the assistant:
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 
-### I want to run my own VPN but don't have a server for that
-You can get a little VPS from just $1/month at [VirMach](https://billing.virmach.com/aff.php?aff=4109&url=billing.virmach.com/cart.php?gid=1).
+This version of the installer hopes to deploy the [most secure version possible](https://community.openvpn.net/openvpn/wiki/Hardening).
 
-### Donations
-
-If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VBAYDL34Z7J6L) or [cryptocurrency](https://pastebin.com/raw/M2JJpQpC). Thanks!
+[x] [Pre-defined DHE groups 2048-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe2048)  
+[ ] [Pre-defined DHE groups 4096-bit](https://wiki.mozilla.org/Security/Server_Side_TLS#ffdhe4096)  
+[ ] tls-version-min=1.2  
+[ ] tls-cipher  
+[ ] tls-auth  
+[ ] 2/M-FA using Google Authenticator  
